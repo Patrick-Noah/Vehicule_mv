@@ -41,4 +41,7 @@ public class Vehicules {
     public void demarrer(){
         System.out.println("Jai demarrer la caisse");
     }
+    public void accelerer(int vitesse){
+        System.out.println("J'accelere de :" +vitesse);
+    }
 }
