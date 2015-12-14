@@ -13,6 +13,7 @@ public class Vehicules {
     private String     nom;
     private int          nbreRoues;
     private String     couleur; 
+    private int vitesse;
 
     public String getNom() {
         return nom;
@@ -43,5 +44,6 @@ public class Vehicules {
     }
     public void arreter(){
         System.out.println("Stopper la caisse.");
+        vitesse =0;
     }
 }
