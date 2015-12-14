@@ -38,5 +38,7 @@ public class Vehicules {
         this.couleur = couleur;
     }
     
-    
+    public void demarrer(){
+        System.out.println("Jai demarrer");
+    }
 }
