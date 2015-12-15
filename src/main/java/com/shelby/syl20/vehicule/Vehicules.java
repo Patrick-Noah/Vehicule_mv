@@ -13,6 +13,7 @@ public class Vehicules {
     private String     nom;
     private int          nbreRoues;
     private String     couleur; 
+    private int vitesse;
 
     public String getNom() {
         return nom;
@@ -39,9 +40,13 @@ public class Vehicules {
     }
     
     public void demarrer(){
-        System.out.println("Jai demarrer la caisse");
+        System.out.println("Jai demarrer la Mustang Shelby");
     }
-    public void accelerer(int vitesse){
-        System.out.println("J'accelere de :" +vitesse);
+    public void accelerer(){
+        System.out.println("Patrick ta Gt350 accelere!!!");
+    }
+    public void arreter(){
+        System.out.println("Stopper la Gt350.");
+        vitesse =0;
     }
 }

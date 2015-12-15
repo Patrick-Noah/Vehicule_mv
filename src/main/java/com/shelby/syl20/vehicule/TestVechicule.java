@@ -12,8 +12,8 @@ package com.shelby.syl20.vehicule;
 public class TestVechicule {
     public static void main(String[] args) {
         Vehicules monVehicule = new Vehicules();
-        monVehicule.demarrer();
-        monVehicule.accelerer(12); 
+        monVehicule.demarrer(); 
+        monVehicule.arreter();
     }
     
 }
