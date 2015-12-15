@@ -42,8 +42,8 @@ public class Vehicules {
     public void demarrer(){
         System.out.println("Jai demarrer la Mustang Shelby");
     }
-    public void accelerer(){
-        System.out.println("Patrick ta Gt350 accelere!!!");
+    public void accelerer(int acc){
+        System.out.println("Patrick ta Gt350 accelere de : " +acc);
     }
     public void arreter(){
         System.out.println("Stopper la Gt350.");
